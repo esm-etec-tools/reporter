@@ -2,6 +2,34 @@
 ## 概要
 AUTOSAR R4.2.2のarxmlファイルを読み込み，RTEに関連するAUTOSARモデル内容を複数の表に出力します．
 
+## 表一覧
+* ImplementationDataType(実装データ型)
+* ApplicationDataType(アプリケーションデータ型)
+* Port(SW-Cのポート)
+* SenderReceiverInterface(S/Rインターフェース)
+* ProvidedDataElement(S/Rの送信データ要素)
+* RequiredDataElement(S/Rの受信データ要素)
+* SR - Communication(S/R連携)
+* ClientServerInterface(C/Sインターフェース)
+* ClientOperation(C/Sのクライアントオペレーション要素)
+* ServerOperation(C/Sのサーバオペレーション要素)
+* TriggerInterface(外部トリガーインターフェース)
+* ModeSwitchInterface(モード切替インターフェース)
+* ModeManager(モードマネージャー)
+* ModeUser(モードユーザー)
+* AssemblyConnector(アセンブリコネクタ)
+* DelegationConnector(デリゲーションコネクタ)
+* Runnable(ランナブルエンティティ)
+* ExclusiveArea(排他エリア)
+* Schdulable(BSWスケジューラブルエンティティ)
+* RunnableMapping(ランナブルエンティティとBSWエンティティのマッピング)
+* Partition(パーティション)
+* ComponentInstance(SW-C配置)
+* OsTask(OSタスク)
+* OsAlarm(OSアラーム)
+* RteUsedOsActivation(RteUsedOsActivation)
+* InterRunnableVariable(InterRunnableVariable)
+
 ## 実行環境設定
 * Java環境設定(Java8以降)  
  Javaの実行環境をインストールし，PATHを通すか，bin/reporter.bat内のjava.exeをフルパスに変更してください．
@@ -31,4 +59,4 @@ AUTOSAR R4.2.2のarxmlファイルを読み込み，RTEに関連するAUTOSARモ
 ## 免責事項
 自由にご利用いただけますが，本ソフトウェアの利用に伴ういかなる場合においても，著作権者は一切責任を負いません．
 
-Copyright (C) 2019 ESM, Inc. All rights reserved.
+Copyright (C) 2019-2020 ESM, Inc. All rights reserved.
